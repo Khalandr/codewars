@@ -1,7 +1,7 @@
 def digitize(n):
-    return list(map(int, sorted(list(str(n)), reverse=True)))
-
+    
+    return list(map(int, list(reversed(str(n)))))
 
     
+digitize(1352)
 
-digitize(135)
